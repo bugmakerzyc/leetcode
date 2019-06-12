@@ -1,4 +1,8 @@
 class Solution {
+    /**
+    * 时间复杂度 O(n)
+    * 空间复杂度 O(1)
+    */
     public int myAtoi(String str) {
         if (str.equals("")) {
             return 0;
